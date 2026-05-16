@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.2 (2026-05-16)
+
+### Packaging
+
+- Exclude `test-fixtures/`, `.github/`, demo GIFs, and banner from the published `.vsix` (package size 1.58 MB to ~110 KB)
+- Attach a `.vsix` asset to GitHub releases for manual / offline install
+
+### Documentation
+
+- Rewrite Installation section: Extensions view as the recommended path, `code` CLI troubleshooting, and manual `.vsix` install steps
+- Fix broken `CONTRIBUTING.md` link in README
+
 ## 0.2.1 (2026-03-22)
 
 ### Bug Fixes

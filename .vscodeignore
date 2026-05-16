@@ -1,10 +1,15 @@
 .vscode/**
 .vscode-test/**
+.github/**
 src/**
+test-fixtures/**
 node_modules/**
 tsconfig.json
 esbuild.js
 .gitignore
+package-lock.json
+assets/banner.png
+assets/demo-*.gif
 **/*.map
 **/*.ts
 !dist/**

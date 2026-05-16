@@ -114,18 +114,32 @@ Works everywhere HTMX is used:
 
 ## Installation
 
-**VS Code Marketplace:**
+### From the Extensions view (recommended)
 
 1. Open VS Code
 2. Press `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS)
 3. Search for **"HTMX Toolkit"**
 4. Click **Install**
 
-**Command Line:**
+Works in any VS Code build (Stable, Insiders, VSCodium) and does not depend on the `code` shell command.
+
+### From the command line
 
 ```bash
 code --install-extension atoolz.htmx-vscode-toolkit
 ```
+
+Requires the `code` CLI on your `PATH`. If you get `code: command not found`, run **Shell Command: Install 'code' command in PATH** from the Command Palette (`Ctrl+Shift+P`), or use one of the other methods.
+
+### Manual install from a `.vsix`
+
+For air-gapped machines, or when the `code` CLI is unavailable:
+
+1. Download `htmx-vscode-toolkit-<version>.vsix` from the [latest release](https://github.com/atoolz/htmx-vscode-toolkit/releases/latest)
+2. In VS Code, open the Command Palette (`Ctrl+Shift+P`)
+3. Run **Extensions: Install from VSIX...** and select the downloaded file
+
+Or from the command line: `code --install-extension htmx-vscode-toolkit-<version>.vsix`
 
 <br>
 
@@ -153,7 +167,7 @@ HTMX has **47K+ GitHub stars** and is one of the fastest-growing frontend librar
 
 ## Contributing
 
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions welcome. Open an [issue](https://github.com/atoolz/htmx-vscode-toolkit/issues) or a pull request.
 
 ```bash
 # Clone and install
